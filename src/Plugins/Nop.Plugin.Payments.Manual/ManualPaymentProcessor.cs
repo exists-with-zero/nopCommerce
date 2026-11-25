@@ -266,8 +266,8 @@ public class ManualPaymentProcessor : BasePlugin, IPaymentMethod
             CreditCardType = form["CreditCardType"],
             CreditCardName = form["CardholderName"],
             CreditCardNumber = form["CardNumber"],
-            CreditCardExpireMonth = int.TryParse(form["ExpireMonth"], out var expireMonth) ? expireMonth : 0,
-            CreditCardExpireYear = int.TryParse(form["ExpireYear"], out var expireYear) ? expireYear : 0,
+            CreditCardExpireMonth = int.Parse(form["ExpireMonth"]),
+            CreditCardExpireYear = int.Parse(form["ExpireYear"]),
             CreditCardCvv2 = form["CardCode"]
         });
     }
