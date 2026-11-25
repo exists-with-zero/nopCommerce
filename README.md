@@ -78,6 +78,3 @@ Create a new graphical theme or develop a new plugin or integration and sell it 
 ### Contribute ###
 
 As a free and open-source project, we are very grateful to everyone who helps us to develop nopCommerce. Please find more details about the options and bonuses for contributors at [contribute page](https://www.nopcommerce.com/contribute?utm_source=github&utm_medium=referral&utm_campaign=contribute&utm_content=text).
-
-
-Shipd index sync test (2026-11-25): one line added to check that a push updates only this file.
